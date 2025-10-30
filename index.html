@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>五子棋游戏 - Gomoku Game</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>五子棋游戏</h1>
+    <div class="game-info">
+      <div class="status">当前玩家: <span id="current-player">黑方</span></div>
+      <button id="reset-btn">重新开始</button>
+    </div>
+    <canvas id="game-board" width="600" height="600"></canvas>
+    <div id="winner-message" class="winner-message hidden"></div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
